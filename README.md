@@ -4,6 +4,14 @@ This project is a **Content-Based Book Recommendation System** built using Pytho
 
 ---
 
+## Live Demo
+
+- You can try the live app here:  
+- [Book Recommendation System on Render](https://book-recommendation-system-9b57.onrender.com)
+- *Please wait 20–30 seconds for the app to load — this delay is due to the Render free-tier service waking up the server.*
+
+---
+
 ## Project Overview
 
 The Book Recommendation System uses collaborative filtering and content-based filtering techniques to recommend books that are most similar to a user's input. The system works by:
@@ -80,4 +88,9 @@ pip install pandas numpy scikit-learn
 ### 3. Run the Jupyter Notebook
 ```bash
 jupyter notebook book_recommendation_model.ipynb
+```
+
+## 4. Run the app
+``` bash
+python app.py
 ```
